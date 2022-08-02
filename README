@@ -1,0 +1,10 @@
+# 動作確認シェルスクリプト
+
+$ bash gcd-test.sh
+
+
+# 最大公約数シェルスクリプト
+
+$ bash gcd.sh arg1 arg2
+
+- arg1とarg2の最大公約数が
