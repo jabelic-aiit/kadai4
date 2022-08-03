@@ -1,11 +1,7 @@
 language: bash
-branches:
-  only:
-    - master*
 os:
   - linux
 arch:
   - x64
 script:
-  - echo Travis CI test in .travis.yml - ./same-test.sh
-  - ./gcd-test.sh
+  - bash gcd-test.sh
