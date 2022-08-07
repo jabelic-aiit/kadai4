@@ -13,6 +13,9 @@ isFullFilledArguments(){
     elif [[ $2 =~ ^-?[1-9]*[0-9](\.[0-9]+)+$ ]] || [[ $3 =~ ^-?[1-9]*[0-9](\.[0-9]+)+$ ]] ;then
         echo "ERROR: argument must be a natural number;"
         exit 1
+    elif [[ $2 =~ ^-[1-9]+[0-9]*$ ]] || [[ $3 =~ ^-[1-9]+[0-9]*$ ]] ;then
+        echo "ERROR: argument must be a natural number;"
+        exit 1
     fi
 }
 

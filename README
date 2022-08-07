@@ -1,10 +1,18 @@
-# 動作確認シェルスクリプト
+# 【課題4】
+
+name: 水野 響  
+studentId: 22745139  
+
+## 動作確認シェルスクリプト
 
 $ bash gcd-test.sh
 
+- test caseが実行される。`... expected, but got ...`と表示されるとtest caseを通過していないことを表す。
 
-# 最大公約数シェルスクリプト
 
-$ bash gcd.sh arg1 arg2
+## 最大公約数シェルスクリプト
 
-- arg1とarg2の最大公約数が
+$ . ./gcd.sh
+$ echo $((`get_gcd arg1 arg2`))
+
+- arg1とarg2の最大公約数が出力される

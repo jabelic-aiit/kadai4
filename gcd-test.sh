@@ -20,6 +20,9 @@ assert 11 121 33
 assert "ERROR: argument must be a natural number;" 12.1 3.3
 assert "ERROR: argument must be a natural number;" 12.1 33
 assert "ERROR: argument must be a natural number;" 121 3.3
+assert "ERROR: argument must be a natural number;" 121 -33
+assert "ERROR: argument must be a natural number;" -121 33
+assert "ERROR: argument must be a natural number;" -121 -33
 assert 1 121 31
 assert 6 12 18
 assert 5 25 95
